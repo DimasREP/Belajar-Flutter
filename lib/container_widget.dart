@@ -7,12 +7,12 @@ class BelajarContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
-      height: 300,
+      width: 800,
+      height: 800,
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-      color: Colors.blue,
+      color: Color.fromARGB(255, 96, 113, 204),
       borderRadius: BorderRadius.circular(15)),
       child: Layer2(),
     );
@@ -25,12 +25,12 @@ class Layer2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 400,
-      height: 400,
+      width: 700,
+      height: 700,
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-      color: const Color.fromARGB(255, 0, 0, 0),
+      color: Color.fromARGB(255, 120, 149, 241),
       borderRadius: BorderRadius.circular(15)),
       child: Layer3(),
     );
@@ -48,7 +48,7 @@ class Layer3 extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-      color: Color.fromARGB(255, 255, 0, 0),
+      color: Color.fromARGB(255, 156, 173, 180),
       borderRadius: BorderRadius.circular(15)),
       child: Layer4(),
     );
@@ -61,15 +61,16 @@ class Layer4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 700,
-      height: 700,
+      width: 500,
+      height: 500,
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: NetworkImage("https://pbs.twimg.com/media/Fs-rj9qaIAkP4-x.jpg")
+          image: NetworkImage("https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/05/12/27bc124c-90e1-11ea-a674-527cfdef49ee_image_hires_160918.jpg"),
+          fit: BoxFit.fill
         ),
-           borderRadius: BorderRadius.circular(15)),
+           borderRadius: BorderRadius.circular(20)),
       
     );
   }
