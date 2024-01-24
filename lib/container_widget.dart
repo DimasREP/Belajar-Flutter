@@ -63,15 +63,13 @@ class Layer4 extends StatelessWidget {
     return Container(
       width: 500,
       height: 500,
-      margin: EdgeInsets.all(10),
+      margin: EdgeInsets.all(10), 
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/05/12/27bc124c-90e1-11ea-a674-527cfdef49ee_image_hires_160918.jpg"),
-          fit: BoxFit.fill
-        ),
-           borderRadius: BorderRadius.circular(20)),
-      
+      image: DecorationImage(
+      image: NetworkImage("https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/05/12/27bc124c-90e1-11ea-a674-527cfdef49ee_image_hires_160918.jpg"),
+      fit: BoxFit.fill),
+      borderRadius: BorderRadius.circular(20)),
     );
   }
 }
