@@ -129,7 +129,7 @@ class LatihanList extends StatelessWidget {
             ],
           ),
         ],
-      ),
-    );
-  }
+     ),
+);
+}
 }
