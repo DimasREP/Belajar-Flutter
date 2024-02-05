@@ -11,7 +11,7 @@ class LatihanGrid extends StatelessWidget {
       children: [
         Container(
           width: 470,
-          height: 350,
+          height: 400,
           margin: EdgeInsets.all(10),
           child: GridView.count(
             scrollDirection: Axis.horizontal,
@@ -35,16 +35,7 @@ class LatihanGrid extends StatelessWidget {
           shrinkWrap: true,
           children: [
             Container(
-              color: Colors.blueAccent,
-              width: 200,
-              height: 200,
-              margin: EdgeInsets.all(10),
-              child: Center(
-                child: FlutterLogo(size: 100),
-              ),
-            ),
-            Container(
-              color: Colors.blueAccent,
+              color: Colors.green,
               width: 200,
               height: 200,
               margin: EdgeInsets.all(10),
@@ -53,7 +44,7 @@ class LatihanGrid extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.blueAccent,
+              color: Colors.green,
               width: 200,
               height: 200,
               margin: EdgeInsets.all(10),
@@ -62,9 +53,18 @@ class LatihanGrid extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.blueAccent,
+              color: Colors.green,
               width: 200,
               height: 200,
+              margin: EdgeInsets.all(10),
+              child: Center(
+                child: FlutterLogo(size: 150),
+              ),
+            ),
+            Container(
+              color: Colors.green,
+              width: 200,
+              height: 100,
               margin: EdgeInsets.all(10),
               child: Center(
                 child: FlutterLogo(size: 150),
